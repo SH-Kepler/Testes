@@ -2,7 +2,6 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import React from 'react';
 import App from '../App';
-// import { Pokedex } from '../pages';
 import renderWithRouter from './renderWithRouter';
 
 describe('Testando o componente FavoritePokemons.js', () => {

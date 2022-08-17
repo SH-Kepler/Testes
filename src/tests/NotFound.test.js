@@ -1,8 +1,6 @@
 import { screen } from '@testing-library/react';
-// import userEvent from '@testing-library/user-event';
 import React from 'react';
 import NotFound from '../pages/NotFound';
-// import App from '../App';
 import renderWithRouter from './renderWithRouter';
 
 describe('Testando o componente NotFound.js', () => {
