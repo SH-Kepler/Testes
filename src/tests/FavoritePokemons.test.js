@@ -5,7 +5,7 @@ import FavoritePokemons from '../pages/FavoritePokemons';
 import App from '../App';
 import renderWithRouter from './renderWithRouter';
 
-describe('Testando o componente App.js', () => {
+describe('Testando o componente FavoritePokemons.js', () => {
   test('teste se é exibida a mensagem "No favorite pokemon"', () => {
     renderWithRouter(<FavoritePokemons />);
 

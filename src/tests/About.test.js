@@ -3,7 +3,7 @@ import React from 'react';
 import About from '../pages/About';
 import renderWithRouter from './renderWithRouter';
 
-describe('Testando o componente App.js', () => {
+describe('Testando o componente About.js', () => {
   test('É exibido na tela um h2 com texto About Pokédex', () => {
     renderWithRouter(<About />);
 

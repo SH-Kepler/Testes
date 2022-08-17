@@ -5,7 +5,7 @@ import NotFound from '../pages/NotFound';
 // import App from '../App';
 import renderWithRouter from './renderWithRouter';
 
-describe('Testando o componente App.js', () => {
+describe('Testando o componente NotFound.js', () => {
   test('teste se contém um h2', () => {
     renderWithRouter(<NotFound />);
 
